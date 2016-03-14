@@ -1,0 +1,37 @@
+Dependencies for Project 'MotionBlur', Target 'External SDRAM': (DO NOT MODIFY !)
+F (.\LCD\font5x7.c)(0x4CD3E22C)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\LCD-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\font5x7.o --omf_browse .\font5x7.crf --depend .\font5x7.d)
+I (D:\Arm\ARM\Inc\Philips\LPC24xx.H)(0x559D3D76)
+I (LCD\font_macro.h)(0x45BA3B64)
+F (.\LCD\lcd_grph.c)(0x52FB28BC)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\LCD-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\lcd_grph.o --omf_browse .\lcd_grph.crf --depend .\lcd_grph.d)
+I (D:\Arm\ARM\Inc\Philips\LPC24xx.H)(0x559D3D76)
+I (.\LCD\general.h)(0x42374524)
+I (LCD\lcd_hw.h)(0x4CD3F826)
+I (LCD\lcd_grph.h)(0x52FA50DA)
+I (LCD\font5x7.h)(0x4A3F371C)
+F (.\LCD\lcd_hw.c)(0x52FA1EE8)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\LCD-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\lcd_hw.o --omf_browse .\lcd_hw.crf --depend .\lcd_hw.d)
+I (D:\Arm\ARM\Inc\Philips\LPC24xx.H)(0x559D3D76)
+I (LCD\lcd_hw.h)(0x4CD3F826)
+I (.\LCD\general.h)(0x42374524)
+I (.\LCD\config.h)(0x4AF98B8E)
+F (.\LCD\config.h)(0x4AF98B8E)()
+F (.\LCD\font_macro.h)(0x45BA3B64)()
+F (.\LCD\font5x7.h)(0x4A3F371C)()
+F (.\LCD\general.h)(0x42374524)()
+F (.\LCD\lcd_grph.h)(0x52FA50DA)()
+F (.\LCD\lcd_hw.h)(0x4CD3F826)()
+F (.\support\crest.h)(0x52FA3B9A)()
+F (.\support\Retarget.c)(0x4A434A0C)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\LCD-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (D:\Arm\ARM\ARMCC\include\stdio.h)(0x55DB8DE6)
+I (D:\Arm\ARM\ARMCC\include\rt_misc.h)(0x55DB8DE8)
+I (D:\Arm\ARM\ARMCC\include\stddef.h)(0x55DB8DEE)
+I (D:\Arm\ARM\ARMCC\include\stdint.h)(0x55DB8DF0)
+F (.\support\Serial.c)(0x4AF2EA50)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\LCD-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\serial.o --omf_browse .\serial.crf --depend .\serial.d)
+I (D:\Arm\ARM\Inc\Philips\LPC23xx.H)(0x559D3D76)
+F (.\support\LPC2400.s)(0x4D642C86)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517" --pd "NO_CLOCK_SETUP SETA 1" --pd "NO_EMC_SETUP SETA 1" --pd "RAM_INTVEC SETA 1" --pd "RAM_MODE SETA 1" --pd "REMAP SETA 1"--list .\lpc2400.lst --xref -o .\lpc2400.o --depend .\lpc2400.d)
+F (.\support\main.c)(0x52FB28CC)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\LCD-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (D:\Arm\ARM\Inc\Philips\LPC23xx.H)(0x559D3D76)
+I (.\LCD\lcd_hw.h)(0x4CD3F826)
+I (.\LCD\lcd_grph.h)(0x52FA50DA)
+I (support\crest.h)(0x52FA3B9A)
+I (D:\Arm\ARM\ARMCC\include\stdio.h)(0x55DB8DE6)
+F (.\MotionBlur.s)(0x56E482BD)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Arm\ARM\RV31\INC-I D:\Arm\ARM\CMSIS\Include-I D:\Arm\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517" --pd "NO_CLOCK_SETUP SETA 1" --pd "NO_EMC_SETUP SETA 1" --pd "RAM_INTVEC SETA 1" --pd "RAM_MODE SETA 1" --pd "REMAP SETA 1"--list .\motionblur.lst --xref -o .\motionblur.o --depend .\motionblur.d)
